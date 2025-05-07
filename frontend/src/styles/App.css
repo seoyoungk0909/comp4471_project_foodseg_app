@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  background-color: #eae4dd;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #413636;
+  margin-bottom: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  color: #666;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

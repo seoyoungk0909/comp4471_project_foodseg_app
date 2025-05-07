@@ -1,0 +1,183 @@
+.results-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.image-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.image-container img {
+  height: 400px;
+}
+
+.nutrition-section {
+  margin-top: 20px;
+}
+
+.column-toggles {
+  margin-bottom: 10px;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+  border: 1px solid #c4c4c4;
+  padding: 8px;
+  text-align: left;
+}
+
+.nutrition-table th {
+  background-color: #413636;
+  color: white;
+  font-weight: normal;
+}
+
+h2 {
+  color: #413636;
+}
+
+.image-caption {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nutrition-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nutritional-info-note {
+  margin-left: 2px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.attribute-selector {
+  border: 1px dashed #616265;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.selector-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.select-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.checkbox-group {
+  margin-top: 5px;
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.attribute-reset-button {
+  padding: 8px 16px;
+  background-color: #af6f45;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+
+  border-radius: 5px;
+}
+
+.attribute-reset-button:hover {
+  background-color: #cc4a4a;
+}
+
+input[type="checkbox"] {
+  accent-color: #cc4a4a;
+}
+
+.triangle-toggle {
+  cursor: pointer;
+  margin-left: 10px;
+  display: flex;
+  /* border: 1px dashed #616265; */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #413636; /* Changed from #333 to red */
+  transition: transform 0.3s ease;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.triangle.up {
+  transform: rotate(180deg);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background: none; /* optional: remove button background */
+}
+.close-btn:hover {
+  font-weight: bold;
+}
+
+.info-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.info-btn:hover {
+  font-weight: bold;
+}
