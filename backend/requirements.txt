@@ -1,0 +1,5 @@
+Flask
+flask-cors
+ultralytics
+pandas
+opencv-python
